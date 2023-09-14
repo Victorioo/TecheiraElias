@@ -1,0 +1,96 @@
+.about_me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%;
+    margin: 0 auto;
+    margin: 10rem auto;
+}
+
+.left_article {
+    max-width: 50%;
+}
+
+.right_article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 45%;
+    gap: 10px;
+}
+
+.right_article h1 {
+    font-size: 2.2rem;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+
+.right_article p {
+    line-height: 37px;
+}
+
+.right_article button {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+.my_svg_about {
+    position: relative;
+}
+
+.oficina_img {
+    position: absolute;
+    right: 3rem;
+    bottom: -3.8rem;
+    width: 380px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+
+.cards_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 0;
+}
+
+
+.cards_section article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem 1.5rem;
+    border-radius: 6px;
+    box-shadow: 1px 1px 20px 8px rgba(0, 0, 0, 0.125);
+    user-select: none;
+    background-color: #f7cc47ff;
+    color: black;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 1rem 2rem;
+    gap: .5rem;
+}
+
+.card h1 {
+    font-size: 32px;
+}
+
+.card span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.divider_section {
+    border: none;
+    width: 80vw;
+    height: 1px;
+    background-color: var(--secondary-color);
+    opacity: 0.2;
+    margin: 0 auto;
+}

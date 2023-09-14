@@ -1,0 +1,54 @@
+.hero_section {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  height: calc(100vh - 100px);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://wallpaperaccess.com/full/508827.jpg");
+  background-size: cover;
+}
+
+.saludo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    circle,
+    var(--primary-color) 0%,
+    rgba(0, 0, 0, 0) 200%
+  );
+  color: var(--secondary-color);
+  user-select: none;
+}
+
+.saludo h1 {
+  font-size: 2.5rem;
+  font-weight: 5 00;
+
+}
+
+.saludo h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.saludo button {
+    padding: .5rem 1rem;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: border-radius 100ms both;
+}
+
+.saludo button:hover {
+    opacity: 0.8;
+    border-radius: 5px;
+}
