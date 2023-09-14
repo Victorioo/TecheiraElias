@@ -16,7 +16,7 @@ function CardsAbout() {
           <div className="card">
             <h1 className="text-4xl font-semibold ">100%</h1>
             <span className="text-md font-medium">
-              Eficiencia y profesionalidad
+              Profesional y eficiente
             </span>
           </div>
         </article>

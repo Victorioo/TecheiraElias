@@ -7,9 +7,7 @@ export default function About() {
   return (
     <>
       <section className="about_me">
-        <article className="left_article">
-          <AboutRectangle />
-        </article>
+        <AboutRectangle/>
         <article className="right_article">
           <h1>ACERCA DE MI</h1>
           <p>
@@ -22,7 +20,7 @@ export default function About() {
         </article>
       </section>
       <CardsAbout />
-      <hr className="divider_section"/>
+      <hr className="divider_section" />
     </>
   );
 }

@@ -6,7 +6,7 @@
   width: 100%;
   height: calc(100vh - 100px);
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("https://wallpaperaccess.com/full/508827.jpg");
+    url("../app/assets/background.jpg");
   background-size: cover;
 }
 
@@ -51,4 +51,10 @@
 .saludo button:hover {
     opacity: 0.8;
     border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .saludo {
+    text-align: center;
+  }
 }

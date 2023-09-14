@@ -22,6 +22,7 @@ export const ModelComponent = ({ ModelPath }) => {
       1000
     );
     const renderer = new THREE.WebGLRenderer();
+
     renderer.setSize(window.innerWidth, window.innerHeight - 100);
     containerRef.current.appendChild(renderer.domElement);
     // Variables para el control de la camara con el mouse o touch
@@ -36,6 +37,8 @@ export const ModelComponent = ({ ModelPath }) => {
     const controls = new OrbitControls(camera, renderer.domElement);
     controls.update();
 
+
+    scene.background = 'transparent'
 
     // Agregar luz ambiental
     const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);

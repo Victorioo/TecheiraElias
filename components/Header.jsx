@@ -24,7 +24,9 @@ export default function Header() {
     <>
       <header>
         <nav>
-        <h1 className="font-medium mr-auto text-lg"><Link href={'/'}>Portfolio</Link></h1>
+          <h1 className="font-medium mr-auto text-lg">
+            <Link href={"/"}>Portfolio</Link>
+          </h1>
           {currentTheme === "dark" ? (
             <BsFillMoonFill
               className="text-lg cursor-pointer theme_switch"

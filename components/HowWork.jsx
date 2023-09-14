@@ -7,9 +7,7 @@ function HowWork() {
   return (
     <section className="section_howWork">
       <article className="best_project">
-        <div className="zoom-image">
-          <Image src={videoMarketing} alt="asodin" />
-        </div>
+        <Image src={videoMarketing} alt="asodin" />
         <Link href="/best">Ir al proyecto</Link>
       </article>
       <article className="info_work">

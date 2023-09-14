@@ -3,7 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import oficina from "../app/assets/oficina.png";
-
+import './About.css';
 function AboutRectangle() {
   let rectangleAnimation = {
     hidden: { opacity: 0, transform: "translateY(50px)" },
@@ -136,7 +136,7 @@ function AboutRectangle() {
         variants={rectangleAnimation}
         initial="hidden"
         transition={{delay: 4}}
-        whileInView={{
+        whileinview={{
           y: 0,
           opacity: 1,
           transform: "translateY(0px)",
