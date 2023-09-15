@@ -5,7 +5,6 @@ import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 import { RGBELoader } from "three/examples/jsm/loaders/RGBELoader";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { DRACOLoader } from "three/examples/jsm/loaders/DRACOLoader";
-import "@/app/best/3dModel.css";
 
 export const ModelComponent = ({ ModelPath }) => {
   const containerRef = useRef();
@@ -67,7 +66,7 @@ export const ModelComponent = ({ ModelPath }) => {
       hdr.load("/lilienstein_4k.hdr", (texture) => {
         texture.mapping = THREE.EquirectangularReflectionMapping;
         scene.environment = texture;
-      });
+      },);
 
       // Función de animación
       const animate = () => {
