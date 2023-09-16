@@ -6,7 +6,7 @@
   width: 100%;
   height: calc(100vh - 100px);
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../app/assets/background.jpg");
+    url("../../app/assets/background.jpg");
   background-size: cover;
 }
 

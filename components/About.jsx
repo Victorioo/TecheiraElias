@@ -1,13 +1,13 @@
 import React from "react";
-import "./About.css";
 import AboutRectangle from "./aboutrectangle";
-
 import CardsAbout from "./cardsAbout";
+
+import "./css/About.css";
 export default function About() {
   return (
     <>
       <section className="about_me">
-        <AboutRectangle/>
+        <AboutRectangle />
         <article className="right_article">
           <h1>ACERCA DE MI</h1>
           <p>

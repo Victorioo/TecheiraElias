@@ -3,7 +3,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import oficina from "../app/assets/oficina.png";
-import './About.css';
+
+import "./css/About.css";
 function AboutRectangle() {
   let rectangleAnimation = {
     hidden: { opacity: 0, transform: "translateY(50px)" },

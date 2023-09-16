@@ -1,7 +1,8 @@
 "use client";
 import React from "react";
-import "./Hero.css";
 import { motion } from "framer-motion";
+
+import "./css/Hero.css";
 function Hero() {
   return (
     <>

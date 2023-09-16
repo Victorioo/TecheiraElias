@@ -1,17 +1,18 @@
+// || x.x ||
 import Hero from "@/components/Hero";
-import Header from "../components/Header";
 import About from "@/components/About";
 import HowWork from "@/components/HowWork";
-
+import Experience from "@/components/Experience";
+// || x.x ||
 export default function page() {
   return (
     <>
-    <main>
-      <Hero>
-      </Hero>
-      <About/>
-      <HowWork/>
-    </main>
+      <main>
+        <Hero />
+        <About />
+        <HowWork />
+        <Experience />
+      </main>
     </>
   );
 }

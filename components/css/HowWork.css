@@ -1,31 +1,73 @@
 .section_howWork {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  margin: 3rem 0;
   overflow: hidden;
-  backdrop-filter: blur(20px);
-}
-
-.zoom-image {
-  width: 500px;
-  height: 300px;
-  overflow: hidden;
-  background: white;
-  border-radius: 10px;
+  padding: 3rem 0;
+  max-width: 80%;
+  margin: 3rem auto;
+  gap: 1rem;
 }
 
 .best_project {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   gap: 20px;
   color: white;
-  padding: 1rem;
-  border-radius: 10px;
+  padding: 1.2rem;
   width: 30rem;
   background-color: #111;
+  border-radius: 6px;
 }
+
+.valorated_higher {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 15px;
+  line-height: 30px;
+}
+
+.valorated_lower {
+  display: flex;
+  width: 100%;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.best_project hr{
+  border: none;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.valorated_lower img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10rem;
+}
+
+.valorated_lower h1 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.valorated_lower span {
+  color: gray;
+}
+
+.valorated_lower a {
+  align-self: flex-end;
+  justify-self: flex-end;
+  color: #8ec7ffff;
+}
+
+
+
+
 
 .best_project h1 {
   align-self: flex-start;
