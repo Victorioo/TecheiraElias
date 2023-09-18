@@ -1,12 +1,22 @@
 "use client";
+
 import React from "react";
-import { motion, useScroll } from "framer-motion";
+import { motion, useScroll, useSpring } from "framer-motion";
 function ScrollIndicator() {
   const { scrollYProgress } = useScroll();
 
+  const scaleX = useSpring(scrollYProgress, {
+    stiffness: 100,
+    damping: 30,
+    restDelta: 0.001,
+  });
+
   return (
     <>
-      <motion.div style={{ scaleX: scrollYProgress }} className="h-1 w-full bg-blue-700" />
+      <motion.div
+        style={{ scaleX, transformOrigin: 0 }}
+        className="h-1 w-full bg-blue-600"
+      />
     </>
   );
 }

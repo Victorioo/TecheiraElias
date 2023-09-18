@@ -3,7 +3,7 @@ import React from "react";
 
 import "./css/HowWork.css";
 import Stars from "./how-work-stars";
-
+import Link from 'next/link'
 function HowWork() {
   return (
     <section className="section_howWork">
@@ -11,10 +11,10 @@ function HowWork() {
         <div className="valorated_higher">
           <Stars />
           <p>
-            A digital agency is a business you hire to outsource your digital
-            marketing efforts, encima tiene el pito grande. They can provide
-            your business with a variety of digital solutions to promote your
-            product or service online and help you.
+            Elías es genial! Entiende la tarea desde el principio y está muy
+            atento a los detalles. Además, esta es la segunda vez que le hago un
+            pedido y, ¡Entregó <b>ambas</b> tareas antes de la fecha límite! Me encanta
+            trabajar con él y definitivamente volveré a comprarle.
           </p>
         </div>
         <hr />
@@ -24,8 +24,9 @@ function HowWork() {
             alt=""
           />
           <div>
-            <h1>Alan Martin</h1>
-            <span>Meta Inc</span>
+            <h1>sofiamp</h1>
+            <span>on Fiverr. - </span>
+            <Link href={'https://www.fiverr.com/gkkkkk35'} target="_blank"> Ver reseña</Link>
           </div>
         </div>
       </article>
@@ -34,15 +35,15 @@ function HowWork() {
         <ol>
           <li>
             <h1>1</h1>
-            <p>Full service range including</p>
+            <p>Diseño innovador y funcional.</p>
           </li>
           <li>
             <h1>2</h1>
-            <p>Technical skills, design, business</p>
+            <p>Eficiencia en costos y plazos.</p>
           </li>
           <li>
             <h1>3</h1>
-            <p>Themselves in the merchants</p>
+            <p>Enfoque personalizado y creativo.</p>
           </li>
         </ol>
       </article>

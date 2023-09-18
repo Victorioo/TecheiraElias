@@ -82,5 +82,9 @@ export const ModelComponent = ({ ModelPath }) => {
     });
   }, [ModelPath]);
 
-  return <div ref={containerRef} className="3d_model"></div>;
+  return (
+    <>
+      <div ref={containerRef}></div>
+    </>
+  );
 };

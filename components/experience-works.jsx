@@ -1,9 +1,10 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import Link from 'next/link'
+import Link from "next/link";
 // can`t use Link from Next w/ motion
-export function NewProject({ href, name}) {
+
+export function NewProject({ href, name }) {
   return (
     <motion.a
       href={href}
@@ -29,16 +30,15 @@ export default function ExperienceWorks() {
       <div className="div_experience">
         <h1>Mi experiencia trabajando:</h1>
         <article className="experience">
-          <NewProject href={"/best"} name={'Ultimo proyecto'}/>
-          <NewProject href={"/"} name={'Mountain arena'}/>
-          <NewProject href={"/"} name={'Cilinders'}/>
-          <NewProject href={"/"} name={'Boxes'}/>
+          <NewProject href={"/best"} name={"Ultimo proyecto"} />
+          <NewProject href={"/"} name={"Mountain arena"} />
+          <NewProject href={"/"} name={"Cilinders"} />
+          <NewProject href={"/"} name={"Boxes"} />
         </article>
-        <Link href={'https://www.behance.net/'} target="_blank">
+        <Link href={"https://www.behance.net/eliastecheira"} target="_blank">
           Explorar más en Behance -&gt;
         </Link>
       </div>
     </>
   );
 }
-
