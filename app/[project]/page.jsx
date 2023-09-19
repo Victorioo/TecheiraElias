@@ -3,7 +3,7 @@ function YourComponent({ params }) {
   const { project } = params;
   return (
     <>
-      <ModelComponent ModelPath="/loldasasadddddds.glb"></ModelComponent>
+      <ModelComponent ModelPath={project}></ModelComponent>
     </>
   );
 }
