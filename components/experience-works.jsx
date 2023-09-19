@@ -4,22 +4,31 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 // can`t use Link from Next w/ motion
 
-export function NewProject({ href, name }) {
+export function NewProject(props) {
   return (
     <motion.a
-      href={href}
+      href={props.href}
       className="work"
       whileHover={{ scale: 1.02, opacity: 0.85 }}
       whileTap={{ scale: 0.98 }}
       transition={{ type: "spring", stiffness: 400, damping: 20 }}
     >
-      <h1>{name}</h1>
-      <motion.span
-        whileTap={{ scale: 0.98 }}
-        transition={{ type: "spring", stiffness: 400, damping: 20 }}
-      >
-        Ir al proyecto
-      </motion.span>
+      <h1>{props.name}</h1>
+      <div className="flex flex-col items-center gap-2">
+        {props.VR ? (
+          <p className="bg-slate-200 px-2 text-sm rounded-xl text-black font-semibold">
+            VR DISPONIBLE
+          </p>
+        ) : (
+          ""
+        )}
+        <motion.span
+          whileTap={{ scale: 0.98 }}
+          transition={{ type: "spring", stiffness: 400, damping: 20 }}
+        >
+          Ir al proyecto
+        </motion.span>
+      </div>
     </motion.a>
   );
 }
@@ -30,10 +39,20 @@ export default function ExperienceWorks() {
       <div className="div_experience">
         <h1>Mi experiencia trabajando:</h1>
         <article className="experience">
-          <NewProject href={"/best"} name={"Ultimo proyecto"} />
+          <NewProject href={"/best"} name={"Ultimo proyecto"} VR={true} />
           <NewProject href={"/"} name={"Mountain arena"} />
-          <NewProject href={"/"} name={"Cilinders"} />
-          <NewProject href={"/"} name={"Boxes"} />
+          <NewProject
+            href={
+              "https://www.behance.net/gallery/177543685/HOUSE-PROJECT-INTERIOR-EXTERIOR"
+            }
+            name={"Cilinders"}
+          />
+          <NewProject
+            href={
+              "https://www.behance.net/gallery/177543531/INTERIOR-RENDERS-ENSCAPE-SKETCHUP"
+            }
+            name={"Boxes"}
+          />
         </article>
         <Link href={"https://www.behance.net/eliastecheira"} target="_blank">
           Explorar más en Behance -&gt;
