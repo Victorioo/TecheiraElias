@@ -98,3 +98,27 @@ iframe {
   width: 100%;
   height: 100%;
 }
+
+@media (max-width: 1024px) {
+  .contact_article {
+    width: 50%;
+  }
+  .contact_form {
+    width: 50%;
+  }
+}
+
+@media (max-width: 600PX) {
+
+  .section_contact {
+    flex-direction: column;
+  }
+  .contact_article {
+    width: 100%;
+    height: 50vh;
+  }
+  .contact_form {
+    width: 100%;
+    height: 40vh;
+  }
+}
