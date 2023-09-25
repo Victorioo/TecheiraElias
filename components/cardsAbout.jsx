@@ -8,12 +8,12 @@ function CardsAbout() {
       <section className="cards_section">
         <article>
           <div className="card">
-            <h1 className="text-4xl font-semibold">3+</h1>
+            <h1 className="text-4xl font-semibold">1+</h1>
             <span className="text-md font-medium">Años de experiencia</span>
           </div>
           <div className="card">
-            <h1 className="text-4xl font-semibold">53+</h1>
-            <span className="text-md font-medium">Proyectos entregados</span>
+            <h1 className="text-4xl font-semibold">13+</h1>
+            <span className="text-md font-medium">Proyectos realizados</span>
           </div>
           <div className="card">
             <h1 className="text-4xl font-semibold ">100%</h1>

@@ -56,8 +56,8 @@
 }
 
 .cards_section article {
-  background-color: #278ef7ff;
-  color: var(--secondary-color);
+  background-color: #86d8a4db;
+  color: #111;
   display: flex;
   align-items: center;
   justify-content: center;

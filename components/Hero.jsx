@@ -17,9 +17,9 @@ function Hero() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5 }}
           >
-            Estudiante de arquitectura, <span>Modelador 3D</span>
+            <span>M.M.O | Estudiante de arquitectura | 3D Modeler</span>
           </motion.h2>
-          <motion.button>Contact Me</motion.button>
+          <a href="#section_contacto">Contactame</a>
         </div>
       </section>
     </>

@@ -15,7 +15,7 @@ function ScrollIndicator() {
     <>
       <motion.div
         style={{ scaleX, transformOrigin: 0 }}
-        className="h-1 w-full bg-blue-600"
+        className="h-1 w-full bg-green-300"
       />
     </>
   );

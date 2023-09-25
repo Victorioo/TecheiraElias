@@ -1,9 +1,11 @@
 import Link from "next/link";
-import SwitchMode from "./SwitchMode";
+import SwitchMode, {OpenMenu} from "./SwitchMode";
 
 import "./css/Header.css";
 import ScrollIndicator from "./scroll.indicator";
+
 export default function Header() {
+
   return (
     <>
       <header>
@@ -11,7 +13,9 @@ export default function Header() {
           <h1 className="font-medium mr-auto text-lg">
             <Link href={"/"}>Portfolio</Link>
           </h1>
+          
           <SwitchMode />
+          <OpenMenu></OpenMenu>
         </nav>
         <ScrollIndicator />
       </header>

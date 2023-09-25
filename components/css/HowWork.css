@@ -17,7 +17,7 @@
   color: white;
   padding: 1.2rem;
   width: 30rem;
-  background-color: #111;
+  background-color: #2c3630ff;
   border-radius: 6px;
 }
 
@@ -93,8 +93,7 @@
 .info_work li {
   display: flex;
   justify-content: stretch;
-  align-items: center;
-  gap: 0.5rem;
+  align-items: baseline;
 }
 
 .info_work li h1 {
@@ -104,7 +103,7 @@
 }
 
 .info_work li p {
-  color: #278ef7ff;
+  color: var(--secondary-color);
   font-weight: 500;
 }
 

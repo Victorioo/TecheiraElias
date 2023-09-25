@@ -24,7 +24,7 @@ export function NewProject(props) {
         )}
         <motion.span
           whileTap={{ scale: 0.98 }}
-          transition={{ type: "spring", stiffness: 400, damping: 20 }}
+          transition={{ type: "spring", stiffness: 390, damping: 20 }}
         >
           Ir al proyecto
         </motion.span>
@@ -39,22 +39,24 @@ export default function ExperienceWorks() {
       <div className="div_experience">
         <h1>Mi experiencia trabajando:</h1>
         <article className="experience">
-          <NewProject href={"/best"} name={"Ultimo proyecto"} VR={true} />
-          <NewProject href={"/"} name={"Mountain arena"} />
+          <NewProject href="/final" name="Ultimo proyecto" VR={true} />
+
           <NewProject
-            href={
-              "https://www.behance.net/gallery/177543685/HOUSE-PROJECT-INTERIOR-EXTERIOR"
-            }
-            name={"Cilinders"}
+            href="https://www.behance.net/gallery/177543531/INTERIOR-RENDERS-ENSCAPE-SKETCHUP"
+            name="Interior renders"
           />
+
           <NewProject
-            href={
-              "https://www.behance.net/gallery/177543531/INTERIOR-RENDERS-ENSCAPE-SKETCHUP"
-            }
-            name={"Boxes"}
+            href="https://www.behance.net/gallery/177543685/HOUSE-PROJECT-INTERIOR-EXTERIOR"
+            name="House Project"
+          />
+
+          <NewProject
+            href="https://www.behance.net/gallery/177992711/Bedroom-Render-Enscape-SketchUp"
+            name="Bedroom render"
           />
         </article>
-        <Link href={"https://www.behance.net/eliastecheira"} target="_blank">
+        <Link href="https://www.behance.net/eliastecheira" target="_blank">
           Explorar más en Behance -&gt;
         </Link>
       </div>

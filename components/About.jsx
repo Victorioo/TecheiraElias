@@ -10,14 +10,30 @@ export default function About() {
         <AboutRectangle />
         <article className="right_article">
           <h1>ACERCA DE MI</h1>
-          <p>
-            +3 años de experiencia en el uso de software de diseño como AutoCAD,
-            Revit, SketchUp, Enscape y más. Me especializo en convertir tus
-            ideas en espacios funcionales y estéticamente atractivos. ¿Qué puedo
-            hacer por ti?: - Diseño de Interiores - Modelado y Render 3D.Estoy
-            comprometido con la satisfacción del cliente y entrego proyectos de
-            alta calidad en los plazos acordados.
-          </p>
+          <div className="flex flex-col gap-3">
+            <p>
+              {" "}
+              Hola! Soy Elias, un estudiante de arquitectura de 19 años, con
+              título de M.M.O. otorgado por la Escuela Técnica N° 9 D.E.7 Ing.
+              Luis A. Huergo. Durante mi formación, he adquirido experiencia en
+              la proyección, así como en instalaciones sanitarias,
+              electromecánicas y de gas.{" "}
+            </p>
+            <p>
+              Mi enfoque se centra en garantizar que cada proyecto sea tanto
+              estéticamente impresionante como funcionalmente eficiente,
+              cumpliendo con los más altos estándares de calidad y seguridad.
+              Con herramientas como{" "}
+              <strong>AutoCAD, SketchUp, Revit, Enscape y Photoshop </strong>
+              me permite crear representaciones precisas y visualmente
+              cautivadoras de mis diseños.
+            </p>
+            <p>
+              {" "}
+              Gracias por visitar mi portfolio y por considerar mi experiencia y
+              habilidades para futuras colaboraciones!
+            </p>
+          </div>
         </article>
       </section>
       <CardsAbout />

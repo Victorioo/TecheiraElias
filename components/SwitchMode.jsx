@@ -1,9 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { BsFillMoonFill, BsFillSunFill } from "react-icons/bs";
 
-function SwitchMode() {
+export default function SwitchMode() {
   // start on dark mode
   const [actualTheme, setActualTheme] = useState("dark");
 
@@ -14,7 +14,6 @@ function SwitchMode() {
     setActualTheme(themeHandler);
     document.body.classList.toggle("dark");
   };
-
   return (
     <>
       {actualTheme === "light" ? (
@@ -32,4 +31,14 @@ function SwitchMode() {
   );
 }
 
-export default SwitchMode;
+export function OpenMenu() {
+  const [open, setOpen] = useState(false)
+
+  return (
+    <ul onClick={() => setOpen(!open)} >
+      <span className={open ? 'opened' : ''}></span>
+      <span className={open ? 'opened' : ''}></span>
+      <span className={open ? 'opened' : ''}></span>
+    </ul>
+  );
+}

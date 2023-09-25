@@ -5,9 +5,10 @@
   align-items: center;
   width: 100%;
   height: calc(100vh - 100px);
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../../app/assets/background.jpg");
+  background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),url('https://cdn.discordapp.com/attachments/853785012570685451/1154454669029036062/c964f68f-e9c9-4070-84ad-b6cff82df99b.jpg');
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .saludo {
@@ -18,39 +19,34 @@
   gap: 1.5rem;
   width: 100%;
   height: 100%;
-  background: radial-gradient(
-    circle,
-    var(--primary-color) 0%,
-    rgba(0, 0, 0, 0) 200%
-  );
+  background: radial-gradient(circle,var(--primary-color) 0%,transparent 140%);
   color: var(--secondary-color);
   user-select: none;
 }
 
 .saludo h1 {
-  font-size: 2.5rem;
-  font-weight: 5 00;
-
+  font-size: 3rem;
+  font-weight: 500;
 }
 
 .saludo h2 {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: 300;
 }
 
-.saludo button {
-    padding: .5rem 1rem;
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    transition: border-radius 100ms both;
+.saludo a {
+  padding: 0.5rem 1rem;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: border-radius 100ms both;
 }
 
 .saludo button:hover {
-    opacity: 0.8;
-    border-radius: 5px;
+  opacity: 0.8;
+  border-radius: 5px;
 }
 
 @media (max-width: 768px) {
