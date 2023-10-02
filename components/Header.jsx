@@ -15,7 +15,7 @@ export default function Header() {
           </h1>
           
           <SwitchMode />
-          <OpenMenu></OpenMenu>
+          {/* <OpenMenu></OpenMenu> */}
         </nav>
         <ScrollIndicator />
       </header>

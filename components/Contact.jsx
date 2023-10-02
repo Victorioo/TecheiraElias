@@ -52,8 +52,7 @@ export default function Contact() {
             loading="lazy"
             allowfullscreen
             referrerpolicy="no-referrer-when-downgrade"
-            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCimpqn5usvy4Q8-Hul2MGy-LDhnezeVGM
-    &q=Buenos+Aires,+CABA"
+            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCimpqn5usvy4Q8-Hul2MGy-LDhnezeVGM&q=Buenos+Aires,+CABA"
           ></iframe>
         </article>
       </section>
