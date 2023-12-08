@@ -3,7 +3,7 @@
 "use client";
 import React from "react";
 import { useParams } from "next/navigation";
-import Link from 'next/link'
+import Link from "next/link";
 const proyectos = [
   {
     id: 1,
@@ -93,9 +93,12 @@ const OtherProjects = () => {
     <div className="flex items-center justify-around w-screen p-14 gap-40">
       {id - 1 > 0 ? (
         <div>
-          <button className="bg-slate-300 px-4 py-1 rounded-2xl text-black font-semibold">
-            <Link href={`/project/${Number(id) - 1}`}>Anterior proyecto</Link>
-          </button>
+          <Link
+            href={`/project/${Number(id) - 1}`}
+            className="bg-slate-300 px-4 py-1 rounded-2xl text-black font-semibold"
+          >
+            Anterior proyecto
+          </Link>
         </div>
       ) : (
         <div></div>
@@ -103,9 +106,12 @@ const OtherProjects = () => {
 
       {Number(id) + 1 != 4 ? (
         <div>
-          <button className="bg-slate-300 px-4 py-1 rounded-2xl text-black font-semibold">
-            <Link href={`/project/${Number(id) + 1}`}>Proximo proyecto</Link>
-          </button>
+          <Link
+            href={`/project/${Number(id) + 1}`}
+            className="bg-slate-300 px-4 py-1 rounded-2xl text-black font-semibold"
+          >
+            Proximo proyecto
+          </Link>
         </div>
       ) : (
         <div></div>
