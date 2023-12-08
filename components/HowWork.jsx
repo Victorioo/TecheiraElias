@@ -83,7 +83,7 @@ function HowWork() {
             className="bg-white"
           />
           <div>
-            <h1>daralyantoine</h1>
+            <h1>sofiamp</h1>
             <span>on Fiverr. - </span>
             <Link href={"https://www.fiverr.com/gkkkkk35"} target="_blank">
               {" "}
