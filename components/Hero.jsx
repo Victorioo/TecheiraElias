@@ -19,7 +19,7 @@ function Hero() {
           >
             <span>M.M.O | Estudiante de arquitectura | 3D Modeler</span>
           </motion.h2>
-          <a href="#section_contacto">Contactame</a>
+          <a href="#contacto">Contactame</a>
         </div>
       </section>
     </>
