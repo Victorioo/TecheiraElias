@@ -9,7 +9,7 @@ export default function About() {
       <section className="about_me">
         <AboutRectangle />
         <article className="right_article">
-          <h1>ACERCA DE MI</h1>
+          <h1 id="acerca"> ACERCA DE MI</h1>
           <div className="flex flex-col gap-3">
             <p>
               {" "}

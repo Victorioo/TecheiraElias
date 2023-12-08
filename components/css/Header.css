@@ -17,15 +17,6 @@ ul {
   display: none;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 80%;
-  height: 100px;
-  margin: 0 auto;
-}
-
 @media (max-width: 768px) {
   nav h1 {
     display: none;

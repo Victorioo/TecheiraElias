@@ -13,7 +13,7 @@ export function NewProject(props) {
       whileTap={{ scale: 0.98 }}
       transition={{ type: "spring", stiffness: 400, damping: 20 }}
     >
-      <h1>{props.name}</h1>
+      <h1 className="text-sm backdrop-blur-xl px-4 py-2 rounded-full bg-[rgba(0,0,0,0.8)] text-transparent bg-clip-text bg-gradient-to-tr from-blue-900 to-[#7bc497ff]">{props.name}</h1>
       <div className="flex flex-col items-center gap-2">
         {props.VR ? (
           <p className="bg-slate-200 px-2 text-sm rounded-xl text-black font-semibold">
