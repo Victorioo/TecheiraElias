@@ -112,6 +112,7 @@
 @media (max-width: 1024px) {
   .section_howWork {
     flex-direction: column-reverse;
+    align-items: center;
     max-width: 100%;
   }
 

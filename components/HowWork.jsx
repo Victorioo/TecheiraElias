@@ -12,9 +12,9 @@ function HowWork() {
           <Stars />
           <p className="text-gray-400 font-medium">
             Elías es genial! Entiende la tarea desde el principio y está muy
-            <b className="text-gray-100"> atento a los detalles</b>. Además, esta
-            es la segunda vez que le hago un pedido y, ¡Entregó ambas tareas
-            antes de la fecha límite! Me encanta trabajar con él y
+            <b className="text-gray-100"> atento a los detalles</b>. Además,
+            esta es la segunda vez que le hago un pedido y, ¡Entregó ambas
+            tareas antes de la fecha límite! Me encanta trabajar con él y
             definitivamente volveré a comprarle.
           </p>
         </div>
@@ -44,6 +44,7 @@ function HowWork() {
             atención a las revisiones que solicité y estoy{" "}
             <b className="text-gray-100">sumamente satisfecho</b> con el
             resultado final.
+            <p>Muy recomendable</p>
           </p>
         </div>
         <hr />
